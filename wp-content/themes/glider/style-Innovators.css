@@ -1,0 +1,21 @@
+body { width: 960px;}
+#main-leftarea { z-index: 999; background: none #000; width: 265px; left: 0 }
+	#main-leftarea .topbg { display: none; }
+	#main-leftarea #logo { margin-top: 60px; right: 35px; }
+	#main-leftarea #menu { top: 165px; z-index: 9999; }
+	#main-leftarea a.active,
+	#main-leftarea a:hover { color: #00dcc8; }
+	#main-leftarea #glow { background:url("images/black/glow-bg.png") no-repeat; top: -90px; right: -90px; }
+	span#active-arrow { background:url("images/innovators/active-arrow.png") no-repeat; top: 172px; }
+#main-rightarea { width: 695px; position: absolute; left: 265px; background: none; }
+	#main-rightarea .block { padding-top: 80px; }
+
+.content-area h2.title, .content-area h1.title, .content-area h2.title a { padding-bottom: 10px; }
+
+#tagline { margin-top: -35px; margin-bottom: 10px; }
+#tagline p#quote2 { padding-top: 9px; }
+
+.gallery-title { padding-bottom: 55px; }
+#breadcrumbs { margin: -30px 0 14px 0; }
+
+#home .title { display: none; }
